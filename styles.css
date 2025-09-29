@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'WildWords';
+    src: url('fonts/NewWildWordsRoman.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'WildWords';
+    background-image: url("chiikawa_fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 100px;
+}
+#menu_lateral{
+    width: 15%; 
+    float: left; 
+    background-color:#ffa600cb; 
+    padding: 10px;
+    clear: both
+}
+
+#Encabezado {
+    font-size: 30px;
+    background-color: #30D5C8;
+    text-align: center;
+    width: 57%;
+    border-radius: 5%;
+    border: 5px solid #000;
+    margin-left: 21%;
+    margin-top: 20px;
+    display: flex;         
+    align-items: center;         
+    justify-content: space-between; 
+}
+
+#Encabezado h1, 
+#Encabezado p {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.usagi {
+    width: 80px;
+    height: auto;
+}
+
+.titulo{
+    font-size: 15px;
+    background-color: #FF94CF;
+    text-align: center;
+    margin: auto;   
+    margin-top: 7%; 
+    width: 45%;
+    border:5px solid #e41452;
+}
+
+.texto{
+    font-size: 15px;
+    background-color: #42ecb3;
+    text-align: center;
+    margin: auto;
+    margin-top: 2px;
+    width: 50%;
+    border:5px solid #6200ff;
+}
+
+.titulo_2{
+    font-size: 15px;
+    background-color: #FF94CF;
+    text-align: center;
+    margin: auto;   
+    margin-top: 60%; 
+    width: 45%;
+    border:5px solid #e41452;
+}
+
+#ana{
+    image-resolution:initial ;
+}
