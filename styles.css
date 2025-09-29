@@ -85,40 +85,158 @@ body {
     border-radius: 10px;
 }
 
-/* Galería completa */
-#galeria {
-    display: none; /* Oculta por defecto */
+/* Fuente personalizada */
+@font-face {
+    font-family: 'WildWords';
+    src: url('fonts/NewWildWordsRoman.ttf') format('truetype');
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'WildWords';
+    background-image: url("chiikawa_fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú lateral */
+#menu_lateral {
+    width: 200px;
+    position: sticky;
+    top: 20px;
+    background-color: #ffa600cb; 
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+#menu_lateral p {
+    margin: 10px 0;
+}
+
+#menu_lateral a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Encabezado */
+#Encabezado {
+    font-size: 30px;
+    background-color: #30D5C8;
+    text-align: center;
+    width: 57%;
+    border-radius: 5%;
+    border: 5px solid #000;
+    margin-left: 21%;
+    margin-top: 20px;
+    display: flex;         
+    align-items: center;         
+    justify-content: space-between; 
+}
+
+#Encabezado h1, 
+#Encabezado p {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.usagi {
+    width: 80px;
+    height: auto;
+}
+
+/* Títulos y bloques */
+.titulo, .titulo_2 {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;   
+    margin-top: 7%; 
+    width: 45%;
+    border:5px solid #e41452;
+    background-color: #FF94CF;
+}
+
+.titulo_2 {
+    margin-top: 20%;
+}
+
+.texto{
+    font-size: 15px;
+    background-color: #42ecb3;
+    text-align: center;
+    margin: auto;
+    margin-top: 2px;
+    width: 50%;
+    border:5px solid #6200ff;
+}
+
+/* Imagenes de contenido */
+#ana img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Imagen principal clickeable */
+.clickable {
+    width: 200px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Galería general */
+.galeria-oculta {
+    display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
     background-color: rgba(0,0,0,0.9);
     z-index: 1000;
     overflow: auto;
 }
 
-#galeria .galeria-garfield {
+.galeria-contenido {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
 }
 
-#galeria .galeria-garfield img {
+.galeria-contenido img {
     width: 150px;
     margin: 10px;
     border: 2px solid white;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.galeria-contenido img:hover {
+    transform: scale(1.1);
 }
 
 /* Botón cerrar */
-#cerrar {
+.cerrar {
     position: absolute;
     top: 20px;
     right: 40px;
     font-size: 50px;
     color: white;
     cursor: pointer;
+}
+
+#texto2 {
+
+    margin-bottom: 30%;
 }
