@@ -127,7 +127,8 @@ body {
 }
 
 .galeria-contenido img {
-    width: 150px;
+    width: 400px;
+    height: 450px;
     margin: 10px;
     border: 2px solid white;
     border-radius: 5px;
