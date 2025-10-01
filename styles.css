@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'WildWords';
-    src: url('NewWildWordsRoman.ttf') format('truetype');
+    src: url('/font/NewWildWordsRoman.TTF') format('truetype');
 }
 
 
 body {
     font-family: 'WildWords';
-    background-image: url("chiikawa_fondo.jpeg");
+    background-image: url("/images/fondopantalla/chiikawa_fondo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@ body {
     padding: 0;
 }
 
-/* Menú lateral */
+
 #menu_lateral {
     width: 200px;
     position: sticky;
@@ -38,7 +38,7 @@ body {
     font-weight: bold;
 }
 
-/* Encabezado */
+
 #Encabezado {
     font-size: 30px;
     background-color: #30D5C8;
