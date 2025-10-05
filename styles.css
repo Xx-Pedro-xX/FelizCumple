@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'WildWords';
-    src: url('/font/NewWildWordsRoman.TTF') format('truetype');
+    src: url('font/NewWildWordsRoman.TTF') format('truetype');
 }
 
 
 body {
     font-family: 'WildWords';
-    background-image: url("/images/fondopantalla/chiikawa_fondo.jpeg");
+    background-image: url("images/fondopantalla/chiikawa_fondo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
