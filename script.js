@@ -11,7 +11,6 @@ imgsClick.forEach(img => {
             galeria.style.display = 'none';
         });
 
-        // Cerrar al clicar fuera del contenido
         galeria.addEventListener('click', (e) => {
             if (e.target === galeria) {
                 galeria.style.display = 'none';
