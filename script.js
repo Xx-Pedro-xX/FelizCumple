@@ -6,7 +6,6 @@ imgsClick.forEach(img => {
         const galeria = document.getElementById(galeriaID);
         galeria.style.display = 'block';
 
-        // Cerrar al clicar la X
         const cerrar = galeria.querySelector('.cerrar');
         cerrar.addEventListener('click', () => {
             galeria.style.display = 'none';
